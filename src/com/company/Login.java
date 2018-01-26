@@ -33,7 +33,8 @@ public class Login extends JPanel implements ActionListener{
     }
 
     public void actionPerformed(ActionEvent e){
-
+        add(new Register(), "register");
+        cl.show(this, "register");
     }
 
     public static void main(String[] args){
